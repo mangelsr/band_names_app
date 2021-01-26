@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Column(
         children: [
-          _buildGraph(),
+          this.bands.isNotEmpty ? _buildGraph() : Container(),
           Expanded(
             child: ListView.builder(
               itemCount: bands.length,
