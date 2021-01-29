@@ -1,16 +1,14 @@
 # band_names
 
-A new Flutter project.
+BandNames app from Advanced Flutter course
 
-## Getting Started
+App Features:
+* Socket connection
+* Dinamic chart
+* State management with Provider
 
-This project is a starting point for a Flutter application.
+This app connects to a [server](https://github.com/mangelsr/band_names_server) via sockets
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+### Main screen
+![alt text](screenshot.png "Mainpage")
